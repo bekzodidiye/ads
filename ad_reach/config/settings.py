@@ -192,7 +192,14 @@ CELERY_BEAT_SCHEDULE = {
         'schedule': 60.0,
     },
 }
-
+ALLOWED_HOSTS = [
+    "ads-16.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+CSRF_TRUSTED_ORIGINS = [
+    "https://ads-16.onrender.com",
+]
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
