@@ -11,3 +11,4 @@ sentry-sdk
 django-cors-headers
 dj-database-url
 whitenoise
+gunicorn
